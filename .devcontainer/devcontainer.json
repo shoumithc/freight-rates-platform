@@ -1,0 +1,10 @@
+{
+  "name": "FreightRates Platform",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "hostRequirements": { "memory": "8gb" },
+  "forwardPorts": [7860, 8501],
+  "portsAttributes": {
+    "7860": { "label": "FreightRates API (Swagger at /docs)", "protocol": "http" },
+    "8501": { "label": "FreightRates App (Streamlit)", "protocol": "http" }
+  }
+}
